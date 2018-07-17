@@ -1,0 +1,28 @@
+{
+  "name": "anydoor_csf",
+  "version": "1.0.0",
+  "description": "Tiny NodeJs Web Server",
+  "main": "src/app.js",
+  "bin":{
+    "anydoor":"bin/anydoor_csf"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maoyaocsf/anydoor_csf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maoyaocsf/anydoor_csf/issues"
+  },
+  "homepage": "https://github.com/maoyaocsf/anydoor_csf#readme",
+  "dependencies": {
+    "@types/node": "^10.5.2",
+    "chalk": "^2.4.1",
+    "handlebars": "^4.0.11",
+    "yargs": "^12.0.1"
+  }
+}
